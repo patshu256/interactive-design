@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(
+    180deg,
+    #972828 0%,
+    #E45742 35%,
+    #EB7F31 68%,
+    #FCAD38 100%
+    );
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+@font-face {
+	font-family: 'Dreamwalker';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../fonts/Dreamwalker.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Caramel and Vanilla';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../fonts/Caramel-and-Vanilla.ttf') format('truetype');
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+h1,h2,h3{
+    font-family: "Dreamwalker", Sans-serif;
+}
+.cst-main-container{
+    height: 100vh;
+}
+.text-border-white{
+    color: #ffffff;
+    font-size: 200px; 
+    font-weight: 400;
+    text-align: center;
+}
+
+img.atf-burger-img, img.atf-burger-img-main {
+    width: 500px;
+}
+
+.atf-burger-container {
+    text-align: center;
+}
+
+.atf-head-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+div#atf-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-text-pos{
+    float: left;
+    right: -205px;
+    position: relative;
+}
+.right-text-pos{
+    float: right;
+    left: -205px;
+    position: relative;
+}
